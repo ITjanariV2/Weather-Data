@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data</title>
+    <script src="/app.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+</head>
+<body style="font-family: 'Work Sans'">
+<ul id="navigationBar">
+    <a class="homeLogo" href="/index.html">
+        <img src="/sunIcon.svg" height="35px"/>
+        <p>weather</p>
+    </a>
+
+    <div class="nav">
+        <a class="navEl active" href="/index.html">Weather</a>
+        <a class="navEl" href="/contact.html">About</a>
+    </div> 
+</ul>
+
+<section id="tabel">
+    <div id="searchLocations">
+        <input type="text" placeholder="location" id="text">
+        <button id="button">search</button>
+    </div>
+
+    <section id="weatherMode">
+        <button class="btn1 btn selected"></button>
+        <button class="btn2 btn"></button>
+        <button class="btn3 btn"></button>
+        <button class="btn4 btn"></button>
+        <button class="btn5 btn"></button>
+    </section>
+
+    <section id="displayData">
+
+    </section>
+    
+</section>
+</body>
+</html>
